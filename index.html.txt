@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>North Central Florida Temperatures</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    .city {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      display: inline-block;
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Current Temperatures in North Central Florida</h1>
+  <div id="temperatures"></div>
+  <script src="widget.js"></script>
+</body>
+</html>
